@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sinnbco1/repositories/test-server-repo/
+    - /bin/cp -R * $DEPLOYPATH
